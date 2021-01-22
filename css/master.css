@@ -4,17 +4,35 @@
   box-sizing: border-box;
 }
 
+/* .clearfix::after{
+  content: ('') ;
+  display: table;
+  clear: both;
+} */
+
 body {
   font-family: 'Roboto', sans-serif;
   font-size: 12px;
-  position:relative;
+  color: rgba(8, 35, 85, 0.97);
+}
+
+.bkg_azzurro {
+  background-color: rgba(93, 186, 236, 0.68);
 }
 
 /* inizio header */
 
 header {
   height: 20vh;
+  width: 100%;
   background-color: red;
+}
+header ul {
+  list-style: none;
+}
+header ul li a {
+  text-decoration: none;
+  color: rgba(8, 35, 85, 0.97);
 }
 
 /* inizio container */
@@ -33,7 +51,28 @@ header {
   left: 0;
   height: 10vh;
   width: 100%;
-  background-color: yellow;
   line-height: 10vh;
   border-bottom: 1px solid grey;
+}
+
+.nav_left ul li {
+  float:left;
+  padding-right: 3vh;
+}
+.nav_right ul li {
+  float:right;
+  padding-left: 3vh;
+}
+
+.btn {
+  border-radius: 10px;
+  padding:8px;
+}
+.btn_orange{
+  border:1px solid orange;
+  color:orange;
+}
+.btn_classic{
+  color: white;
+  background-color: orange;
 }
