@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  position:relative;
+}
+
+/* inizio header */
+
+header {
+  height: 20vh;
+  background-color: red;
+}
+
+/* inizio container */
+
+.container {
+  width: 90%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+/* inizio top header */
+
+.top_header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 10vh;
+  width: 100%;
+  background-color: yellow;
+  line-height: 10vh;
+  border-bottom: 1px solid grey;
+}
