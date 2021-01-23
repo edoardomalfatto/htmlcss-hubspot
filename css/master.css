@@ -15,7 +15,7 @@
 
 body {
   font-family: 'Roboto', sans-serif;
-  font-size: 12px;
+  font-size: 13px;
   color: rgba(8, 35, 85, 0.97);
 }
 
@@ -97,6 +97,9 @@ header ul li a {
   content: '\0025BC';
   padding-left:5px;
 }
+
+/* inizio bottom header */
+
 /* logo qui */
 .float_left {
   float:left;
@@ -107,3 +110,28 @@ header ul li a {
 #logo img {
   transform: translateY(50%);
 }
+/* fine bottom header */
+
+/* inizio jumbotron */
+.jumbotron {
+  width: 100%;
+  height: 80vh;
+  background-image: url("../img/jumbotron.png");
+  background-repeat: no-repeat;
+  /* COVER INVECE DI CONTAIN PER LAVORARE MEGLIO SUL MIO SCHERMO */
+  background-size: contain;
+}
+
+.jumbo_contain {
+  width: 45%;
+  padding-top: 20vh;
+}
+
+.jumbo_contain h1 {
+  font-size: 250%;
+}
+.jumbo_description p {
+  padding:3vh 0;
+}
+
+/* fine jumbotron */
