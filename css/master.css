@@ -1,4 +1,7 @@
-/* 1)aggiungere simbolini giusti a top header*/
+/* 1)aggiungere simbolini giusti a top header
+   2)aggiungere hr a colonna header
+   3)rivedere sezione sponsor con flot invece che inlineblock*/
+
 
 * {
   margin: 0;
@@ -81,6 +84,7 @@ header ul li a {
 }
 /* fine top header */
 
+
 /* inizio bottom header */
 .bottom_header {
   height: 10vh;
@@ -103,6 +107,7 @@ header ul li a {
 }
 /* inizio bottom header */
 
+
 /* logo qui */
 .float_left {
   float:left;
@@ -114,6 +119,7 @@ header ul li a {
   transform: translateY(50%);
 }
 /* fine bottom header */
+
 
 /* inizio jumbotron */
 .jumbotron {
@@ -139,12 +145,13 @@ header ul li a {
 
 /* fine jumbotron */
 
+
 /* INIZIO MAIN */
 main {
   margin-top: -3vh;
 }
-/* inizio prima sezione */
 
+/* inizio prima sezione */
 .prima_sezione {
   width: 100%;
   padding-bottom: 7vh;
@@ -169,6 +176,7 @@ main {
 
 /* INIZIO STRUTTURA COLONNE */
 /* MANCA HR IN COLONNA HEADER */
+
 /* INIZIO COLONNA HEADER */
 .colonna {
   border: 2px solid black;
@@ -295,7 +303,8 @@ padding-right:10px;
   border-right:3px solid white;
   border-bottom:3px solid white;
 }
-.row2 .box{
+
+.row2 .box {
   border-bottom: 0;
 }
 /* FINE SECONDA SEZIONE */
@@ -304,6 +313,7 @@ padding-right:10px;
 .terza_sezione {
   margin-bottom: 5vh;
 }
+
 .third_description {
   width: 20%;
   padding-left: 10vh;
@@ -335,22 +345,24 @@ padding-right:10px;
   vertical-align: middle;
   }
 
-  .bottom_thirdsection .jumbo_contain{
-    width: 30%;
-  }
-  .jumbo_contain h2{
-    font-size: 200%;
+.bottom_thirdsection .jumbo_contain{
+  width: 30%;
   }
 
-  .bio_image {
-    height: 35vh;
-    width: 50%;
-    margin-top: 15vh;
-    background-image: url("../img/woman.webp");
-    background-position: right;
-    background-repeat: no-repeat;
-    background-size: contain;
+.jumbo_contain h2{
+    font-size: 200%;
+ }
+
+.bio_image {
+  height: 35vh;
+  width: 50%;
+  margin-top: 15vh;
+  background-image: url("../img/woman.webp");
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: contain;
   }
+
   /* FINE MAIN */
 
   /* INIZIO FOOTER */
@@ -375,10 +387,13 @@ padding-right:10px;
 .column li {
   margin-bottom:1vh;
 }
-.column ul {
+.column ul,
+ {
   list-style: none;
 }
-.column ul li a {
+.column ul li a ,
+.footer_middle ul li a ,
+.footer_bottom .nav_right.bottom ul li a {
   text-decoration: none;
 }
 .btn_footer {
@@ -394,4 +409,23 @@ padding-right:10px;
 .fab {
   color: rgb(201, 219, 249);
   width: 6%;
+}
+
+/* INIZIO FOOTER MIDDLE */
+.footer_middle {
+  text-align: center;
+  padding-bottom: 2vh;
+}
+.footer_middle ul li {
+ margin-left: 20px;
+}
+
+/* INIZIO FOOTER BOTTOM */
+.footer_bottom {
+  padding: 3vh 0;
+}
+#footer_bottom ul{
+  list-style: none;
+  text-align: middle;
+  padding-top: 1vh;
 }
