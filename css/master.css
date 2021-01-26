@@ -1,5 +1,4 @@
-/* 1)aggiungere simbolini giusti a top header
-    2)aggiungere position fixed a top header*/
+/* 1)aggiungere simbolini giusti a top header*/
 
 * {
   margin: 0;
@@ -109,7 +108,7 @@ header ul li a {
   float:left;
 }
 .float_right {
-  float_right;
+  float:right;
 }
 #logo img {
   transform: translateY(50%);
@@ -282,6 +281,7 @@ padding-right:10px;
   content: "+";
   font-size: 20px;
   line-height: 4vh;
+  vertical-align: middle;
 }
 .sideup {
   border-bottom: 3px solid white;
@@ -298,3 +298,56 @@ padding-right:10px;
 .row2 .box{
   border-bottom: 0;
 }
+/* FINE SECONDA SEZIONE */
+
+/* INIZIO TERZA SEZIONE */
+.terza_sezione {
+  margin-bottom: 5vh;
+}
+.third_description {
+  width: 20%;
+  padding-left: 10vh;
+}
+.third_description h1 {
+  font-size: 250%;
+  padding-top: 10vh;
+  padding-bottom: 3vh;
+}
+
+.bolder {
+  font-weight: bolder;
+}
+
+.third_sponsors {
+  width: 79%;
+  padding-left: 20vh;
+}
+.third_sponsors .row_1 {
+  margin-bottom: 2vh;
+}
+.sponsor {
+  width: calc(90% / 4);
+}
+.sponsor img {
+  max-height: 40px;
+  max-width: 100%;
+  padding:10px;
+  vertical-align: middle;
+  }
+
+  .bottom_thirdsection .jumbo_contain{
+    width: 30%;
+  }
+  .jumbo_contain h2{
+    font-size: 200%;
+  }
+
+  .bio_image {
+    height: 35vh;
+    width: 50%;
+    margin-top: 15vh;
+    background-image: url("../img/woman.webp");
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
