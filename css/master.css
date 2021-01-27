@@ -22,7 +22,7 @@ body {
 }
 
 .bkg_azzurro {
-  background-color: rgba(93, 186, 236, 0.68);
+  background-color: rgb(93, 186, 236);
 }
 
 /* inizio header */
@@ -36,6 +36,9 @@ header ul {
 header ul li a {
   text-decoration: none;
   color: rgba(8, 35, 85, 0.97);
+}
+.top_header {
+  background-color:rgb(201, 219, 249);
 }
 
 /* inizio container */
@@ -97,7 +100,10 @@ header ul li a {
   padding-left:5px;
 }
 .down_icon::after {
-  content: '\0025BC';
+  font-family: "fontawesome";
+  content: '\f078';
+  font-size: 90%;
+  padding-left: 3px;
 }
 .search_icon::before {
   padding-left:5px;
@@ -203,7 +209,13 @@ main {
 .hed_right.text h5 {
   padding: 5px 0;
 }
-
+.h5_hr hr {
+  width: 44%;
+  margin-top: 12px;
+}
+.h5_hr h5 {
+  text-transform: uppercase;
+}
 
 .hed_right .list_item {
 padding-top: 0;
@@ -396,6 +408,9 @@ padding-right:10px;
 .footer_bottom .nav_right.bottom ul li a {
   text-decoration: none;
 }
+.button_container li {
+  list-style: none;
+}
 .btn_footer {
   color:rgba(8, 35, 85, 0.97) ;
   background-color: rgb(201, 219, 249);
@@ -424,7 +439,7 @@ padding-right:10px;
 .footer_bottom {
   padding: 3vh 0;
 }
-#footer_bottom ul{
+#footer_bottom ul {
   list-style: none;
   text-align: middle;
   padding-top: 1vh;
